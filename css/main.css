@@ -8,6 +8,7 @@
   --grey-color: #313131;
   --black-color: #000;
   --white-color: #fff;
+  --beige-color: rgba(244, 237, 232, 1);
 }
 
 /* ====================================
@@ -21,7 +22,13 @@
 }
 
 html {
-  font-size: 16px;
+  width: 428px;
+  scroll-behavior: smooth;
+  font-size: 15px;
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
+  color: var(--black-color);
+  font-weight: 300;
 }
 
 body {
@@ -32,6 +39,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -39,4 +47,149 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+header {
+  background: var(--violet-color);
+}
+
+h1 {
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+h1 > span {
+  font-family: Noto Serif;
+}
+
+header > p {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+nav {
+  background: var(--black-color);
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.whatson > div {
+  text-align: center;
+  line-height: 15px;
+  text-transform: capitalize;
+  border: 1px solid var(--black-color);
+}
+
+hr {
+  width: 388px;
+  height: 7px;
+  flex-shrink: 0;
+  background: var(--violet-color);
+}
+
+h3 {
+  color: var(--black-color);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.programme {
+  background: var(--black-color);
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 15px;
+}
+
+.citation {
+  background: var(--green-color);
+}
+
+.citation > p {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+}
+
+h4 {
+  color: var(--black-color);
+  text-align: center;
+  line-height: 15px;
+}
+
+.whatsnew {
+  background: var(--beige-color);
+}
+
+.whatsnew > div {
+  background: var(--white-color);
+  border-radius: 20px;
+  width: 388px;
+  height: 409px;
+  flex-shrink: 0;
+}
+
+.opportunities {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+
+.opportunities > h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  letter-spacing: -2.5px;
+  background: var(--violet-color);
+}
+
+.opportunities > p {
+  background: var(--green-color);
+}
+
+footer {
+  background: var(--black-color);
+  color: var(--white-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer > h1 {
+  color: var(--grey-color);
+}
+
+h5 {
+  color: var(--white-color);
+  font-family: Nunito Sans;
+  font-weight: 800;
+}
+
+footer > div > p {
+  text-transform: lowercase;
 }
