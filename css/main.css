@@ -45,6 +45,7 @@ a {
 img,
 video {
   max-inline-size: 100%;
+  height: 50%;
   block-size: auto;
   vertical-align: text-top;
 }
@@ -58,10 +59,12 @@ h1 {
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
+  padding: 20px 20px 10px;
 }
 
 h1 > span {
   font-family: Noto Serif;
+  font-weight: 300;
 }
 
 header > p {
@@ -69,27 +72,37 @@ header > p {
   text-align: center;
   font-size: 20px;
   line-height: 24px;
+  padding-bottom: 20px;
 }
 
 nav {
   background: var(--black-color);
   color: var(--white-color);
   font-size: 18px;
+  font-weight: 300;
   line-height: 22px;
+  padding: 20px 35px 20px 35px;
+}
+
+.news-menu {
+  padding: 0 20px 0;
 }
 
 h2 {
   text-align: center;
   font-size: 50px;
   line-height: 50px;
-  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
-.whatson > div {
+.whatson > div > div {
   text-align: center;
   line-height: 15px;
   text-transform: capitalize;
   border: 1px solid var(--black-color);
+  margin: 20px;
 }
 
 hr {
@@ -106,6 +119,15 @@ h3 {
   font-size: 30px;
   font-weight: 800;
   line-height: 36px;
+  text-transform: uppercase;
+}
+
+.programme-div-div > p {
+  padding: 20px;
+}
+
+.programme-div-div {
+  margin-bottom: 30px;
 }
 
 .programme {
@@ -117,10 +139,14 @@ h3 {
   font-style: italic;
   font-weight: 800;
   line-height: 15px;
+  padding: 20px 30px;
+  margin: 30px 97px 0;
 }
 
 .citation {
   background: var(--green-color);
+  margin-top: 60px;
+  padding: 20px;
 }
 
 .citation > p {
@@ -137,10 +163,13 @@ h4 {
   color: var(--black-color);
   text-align: center;
   line-height: 15px;
+  padding: 20px 20px 0;
+  font-weight: 300;
 }
 
 .whatsnew {
   background: var(--beige-color);
+  padding-bottom: 60px;
 }
 
 .whatsnew > div {
@@ -149,6 +178,28 @@ h4 {
   width: 388px;
   height: 409px;
   flex-shrink: 0;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 20px 20px 0 20px;
+}
+
+.whatsnew > div > p {
+  padding: 20px;
+}
+
+.whatsnew > div > img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+strong {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 
 .opportunities {
@@ -158,6 +209,7 @@ h4 {
   font-weight: 800;
   line-height: 24px;
   letter-spacing: -1px;
+  margin-bottom: 60px;
 }
 
 .opportunities > h2 {
@@ -166,10 +218,13 @@ h4 {
   font-style: normal;
   letter-spacing: -2.5px;
   background: var(--violet-color);
+  padding: 20px;
 }
 
 .opportunities > p {
   background: var(--green-color);
+  padding: 20px;
+  margin: 20px 0;
 }
 
 footer {
@@ -178,16 +233,19 @@ footer {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
+  padding-bottom: 40px;
 }
 
 footer > h1 {
   color: var(--grey-color);
+  padding: 20px 20px 0;
 }
 
 h5 {
   color: var(--white-color);
   font-family: Nunito Sans;
   font-weight: 800;
+  padding: 20px 20px 0;
 }
 
 footer > div > p {
