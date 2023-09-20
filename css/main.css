@@ -116,7 +116,12 @@ h3 {
 
 .programme {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.box-desire-marea {
+  margin-left: 20px;
 }
 
 .text-programme {
@@ -176,23 +181,35 @@ h4 {
   padding-bottom: 60px;
 }
 
-.whatsnew > div {
+.new-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.box-new {
   background: var(--white-color);
   border-radius: 20px;
-  width: 388px;
-  height: 409px;
+  width: 189px;
+  height: 541px;
   flex-shrink: 0;
   text-transform: none;
   font-size: 15px;
   line-height: 22px;
-  margin: 20px 20px 0 20px;
 }
 
-.whatsnew > div > p {
+.if-walls-could-talk {
+  width: 189px;
+  height: 475px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.box-new > p {
   padding: 20px;
 }
 
-.whatsnew > div > img {
+.box-new > img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -247,7 +264,7 @@ footer {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
-  padding-bottom: 40px;
+  padding-bottom: 112px;
 }
 
 footer > h1 {
