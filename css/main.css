@@ -22,7 +22,7 @@
 }
 
 html {
-  width: 428px;
+  max-width: 428px;
   scroll-behavior: smooth;
   font-size: 15px;
   font-family: "Noto Serif", serif;
@@ -94,19 +94,11 @@ h2 {
   line-height: 50px;
   font-weight: 300;
   padding-top: 60px;
-  padding-bottom: 10px;
-}
-
-.whatson > div > div {
-  text-align: center;
-  line-height: 15px;
-  text-transform: capitalize;
-  border: 1px solid var(--black-color);
-  margin: 20px;
+  padding-bottom: 30px;
 }
 
 hr {
-  width: 388px;
+  width: 189px;
   height: 7px;
   flex-shrink: 0;
   background: var(--violet-color);
@@ -116,21 +108,37 @@ h3 {
   color: var(--black-color);
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 800;
-  line-height: 36px;
+  line-height: 24px;
   text-transform: uppercase;
 }
 
-.programme-div-div > p {
+.programme {
+  display: flex;
+  justify-content: center;
+}
+
+.text-programme {
   padding: 20px;
 }
 
-.programme-div-div {
-  margin-bottom: 30px;
+.box-desire-marea {
+  margin-right: 10px;
 }
 
-.programme {
+.box-programme {
+  margin-bottom: 30px;
+  width: 189px;
+  height: 275px;
+  flex-shrink: 0;
+  text-align: center;
+  line-height: 15px;
+  text-transform: capitalize;
+  border: 1px solid var(--black-color);
+}
+
+.button-programme {
   background: var(--black-color);
   color: #d7a1fd;
   text-align: center;
@@ -221,10 +229,20 @@ strong {
   padding: 20px;
 }
 
-.opportunities > p {
+.opportunities-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.opportunities-box > p {
   background: var(--green-color);
-  padding: 20px;
-  margin: 20px 0;
+  padding: 20px 10px 44px;
+  margin: 0;
+  border: 1px solid var(--black-color);
+  width: 214px;
+  height: 112px;
+  flex-shrink: 0;
 }
 
 footer {
