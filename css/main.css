@@ -282,14 +282,12 @@ h5 {
 .footer-flex {
   display: flex;
   justify-content: space-around;
-  color: #fff;
   text-align: center;
   font-size: 13px;
   font-weight: 800;
   line-height: 18px;
-  text-transform: uppercase;
 }
 
-.box-footer > p {
+.box-footer > a {
   text-transform: lowercase;
 }
